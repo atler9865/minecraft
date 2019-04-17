@@ -50,16 +50,70 @@ button{
 	float: right;
 }
 
-.menu_bg{
+.menu-bg{
+	position: relative;
 	background: linear-gradient(to bottom, #51c066, #3d9b50);
     height: 45px;
 }
-.main-menu ul{
-	width: 100%;
+.main-menu li{
+	width: 19.6%;
+	height: 45px;
+	text-align: center;
+	display: inline-block;
+
+	color: white;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 45px;
 }
 
-.main-menu li{
-	display: inline-block;
+.sitebar{
+	float: left;
+	width: 230px;
 }
+
+.mainbar{
+	margin-left:  230px;
+}
+
+.news-item{
+	display: inline-block;
+	width: 230px;
+	
+}
+
+.news-item p{
+	background: linear-gradient(to top, #51c066, #3d9b50);
+}
+
+.news-img{
+	width: 230px;
+}
+
+.yellow-line{
+	background: #f8bd09;
+
+}
+
+.yellow-line table{
+	float: right;
+}
+
+.cls{
+	clear: both;
+}
+
+.logo-line{
+	background: linear-gradient(to bottom, #33cc66, #339966)
+}
+
+.logo-line li{
+	list-style: none;
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+}
+
+
 
 
