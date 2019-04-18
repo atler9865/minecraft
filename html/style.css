@@ -13,6 +13,22 @@ a{
 	font-size: 16px;
 }
 
+h2{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h1{
+	line-height: 45px;
+
+	font-size: 24px;
+	font-weight: bold;
+
+}
+
+.mainbar hr{
+	margin: 20px 0;
+}
 .resize{
 	width: 980px;
 	margin: 0 auto;
@@ -22,18 +38,17 @@ a{
 	width: 100%;
 	height: 45px;
 
-	padding: auto 0px;
-
 	background-color: #37a14c;
 	
 	color: white;
 	font-family: Arial;
 	font-size: 16px;
+	line-height: 45px;
 }
 
 .green-line_img_container{
 	padding-left: 3px;
-	display: inline-block;
+	display: inline;
 	float: right;
 }
 
@@ -48,6 +63,12 @@ a{
 
 button{
 	height: 37px;
+	width: 136px;
+	
+	border: none;
+	color: white;
+	background-color: #fdd108;
+	border-radius: 5px;
 
 	text-align: center;
 }
@@ -75,7 +96,19 @@ button{
 
 .sitebar{
 	float: left;
-	width: 230px;
+	width: 210px;
+}
+
+.sitebar ul{ 
+	font-size: 20px;
+	line-height: 45px;
+}
+
+.sitebar li{ 
+	font-size: 16px;
+	color: red;
+	line-height: 20px;
+	padding-left: 15px;
 }
 
 .mainbar{
@@ -85,6 +118,7 @@ button{
 .news-item{
 	display: inline-block;
 	width: 230px;
+	margin-top: 17px;
 	
 }
 
