@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: "Times New Romain", Helvetica, serif;
 }
 ul, ol, li{
 	list-style: none;
@@ -10,7 +11,6 @@ ul, ol, li{
 a{
 	text-decoration: none;
 	color: black;
-	font-size: 16px;
 }
 
 h2{
@@ -48,6 +48,7 @@ h1{
 
 .green-line_img_container{
 	padding-left: 3px;
+	padding-top: 8px;
 	display: inline;
 	float: right;
 }
@@ -55,6 +56,26 @@ h1{
 .contacts{
 	display: inline-block;
 }
+
+table{
+	color: #0f680e;
+	font-size: 16px;
+}
+
+.right-colum{
+	font-size: 20px;
+}
+
+.skype-left{
+	color: #000000;
+}
+
+.skype-right{
+	color: #1200ff;
+
+}
+
+
 
 .buttons{
 	display: inline-block;
@@ -66,14 +87,22 @@ button{
 	width: 136px;
 	
 	border: none;
-	color: white;
-	background-color: #fdd108;
+	background: linear-gradient(to bottom, #fdd108, #feba12);
 	border-radius: 5px;
 
 	text-align: center;
+	color: white;
+
+	border-top: 1px solid #f3ec19;
+	border-bottom: 2px solid #6d5d1e;/* linear-gradient(to bottom, #6d5d1e, #293224);*/
+	margin-top: 25px;
 }
 
-.logo_right{
+button:active{
+	background: linear-gradient(to top , #fdd108, #feba12);
+}
+
+.logo-right{
 	float: right;
 }
 
@@ -82,8 +111,13 @@ button{
 	background: linear-gradient(to bottom, #51c066, #3d9b50);
     height: 45px;
 }
+.main-menu{
+	font-size: 0;
+	line-height: 0;
+}
+
 .main-menu li{
-	width: 19.6%;
+	width: calc(20% - 1px);
 	height: 45px;
 	text-align: center;
 	display: inline-block;
@@ -92,11 +126,28 @@ button{
 	font-family: Arial;
 	font-size: 16px;
 	line-height: 45px;
+	border-left: 1px solid #247634;
+
+}
+
+.main-menu li:last-child{
+	width: calc(20% - 2px);
+	border-right: 1px solid #247634;
+
+}
+
+.main-menu li:hover{
+	background: linear-gradient(to bottom, #4cda67, #34a34b);
+}
+
+.main-menu ul{
+	width: 100%;
 }
 
 .sitebar{
 	float: left;
 	width: 210px;
+	padding-top: 5px;
 }
 
 .sitebar ul{ 
@@ -106,9 +157,12 @@ button{
 
 .sitebar li{ 
 	font-size: 16px;
-	color: red;
 	line-height: 20px;
 	padding-left: 15px;
+}
+
+.sitebar li a{
+	color: red;
 }
 
 .mainbar{
@@ -149,13 +203,19 @@ button{
 }
 
 .yellow-line{
+	padding: 10px 0;
 	background: #f8bd09;
 	margin-top: 25px;
-
 }
 
 .yellow-line table{
 	float: right;
+	color: #000;
+}
+
+.yellow-span{
+	color: white;
+	font-size: 20px;
 }
 
 .cls{
@@ -176,20 +236,15 @@ button{
 
 }
 
-.logo-line li:nth-child(1){
+.logo-line li:first-child{
 	text-align: left;
 }
 
-.logo-line li:nth-child(4){
+.logo-line li:last-child{
 	text-align: right;
 }
 
 .copyrights{
 height: 45px;
 line-height: 45px;
-
 }
-
-
-
-
