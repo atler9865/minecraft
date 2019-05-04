@@ -138,6 +138,7 @@ header .resize ul{
 .menu-bg .main-menu {
 	border-left: 1px solid #57e974;
 	border-right: 1px solid #247634;
+	padding-left: 1px;
 }
 
 /*.main-menu ul:first-chid{
