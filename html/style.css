@@ -127,7 +127,7 @@ header .resize ul{
 }
 
 .main-menu li{
-	width: calc(20%);
+	width: 20%;
 	text-align: center;
 	display: inline-block;
 
