@@ -253,3 +253,21 @@ header .resize ul{
 .copyrights{
 line-height: 45px;
 }
+
+.green-line_img_container a:before{
+	content: "";
+	display: inline-block;
+
+	width: 28px;
+	height: 28px;
+
+	background: url(../images/sprite/sprite.png) no-repeat 0px -71px;
+}
+
+.green-line_img_container .fb_img:before{
+	background-position: -30px -71px;
+}
+
+.green-line_img_container .eng_img:before{
+	background-position: -60px -71px;
+}
